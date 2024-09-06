@@ -63,4 +63,4 @@ const singleImageDetail = async (req, res) =>{
     res.send(result);
 }
 
-module.exports = {upscalGet,upscalPost, getAllPaintings, generatePaint, singleImageDetail}
+module.exports = { upscalGet,upscalPost, getAllPaintings, generatePaint, singleImageDetail}

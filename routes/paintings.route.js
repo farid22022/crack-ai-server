@@ -6,6 +6,5 @@ router.get("/", getAllPaintings)
 router.get("/:id",singleImageDetail)
 router.post("/generate",generatePaint);
 
-// router.post("/")
 
 module.exports = router
